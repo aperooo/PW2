@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Brothers - Filem Terkini</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/image2.webp') no-repeat center center;
+            background-size: cover;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .movie-poster {
+            border: 5px solid #fff;
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+        }
+        .section-title {
+            border-bottom: 2px solid #dc3545;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+        .cast-member {
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+        .cast-member:hover {
+            transform: scale(1.05);
+        }
+        .showtime-card {
+            background-color: #1a1a1a;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 4px solid #dc3545;
+        }
+        footer {
+            background-color: #1a1a1a;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        .nav-link {
+            color: rgba(255,255,255,0.8);
+        }
+        .nav-link:hover {
+            color: #dc3545;
+        }
+        .trailer-container {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        }
+        .info-badge {
+            background-color: #dc3545;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            margin-right: 10px;
+        }
+        .troubleshoot-section {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h2 class="text-danger">𝗕𝗟𝗢𝗢𝗗 𝗕𝗥𝗢𝗧𝗛𝗘𝗥𝗦</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#overview">Gambaran</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cast">Pelakon</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#showtimes">Waktu Tayangan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#trailer">Treler</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="images/poster.jpg" alt="Blood Brothers Movie Poster" class="img-fluid movie-poster">
+                </div>
+                <div class="col-md-8">
+                    <h1 class="display-3 fw-bold text-danger">𝗕𝗟𝗢𝗢𝗗 𝗕𝗥𝗢𝗧𝗛𝗘𝗥𝗦</h1>
+                    <p class="lead">2025 · Aksi · 2j 10m</p>
+                    <div class="rating mb-3">
+                        <span class="badge bg-warning text-dark p-2">IMDb: 7.1/10</span>
+                    </div>
+                    <p class="tagline">Menegangkan, Mencengkam, dan Penuh Aksi</p>
+                    <a href="#trailer" class="btn btn-danger btn-lg me-2">Tonton Treler</a>
+                    <a href="#showtimes" class="btn btn-outline-light btn-lg">Tempah Tiket</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Container -->
+    <div class="container my-5">
+        <!-- Overview Section -->
+        <section id="overview" class="mb-5">
+            <h2 class="section-title text-danger">Gambaran</h2>
+            <p class="lead">
+                Sekumpulan lelaki rapat yang bekerja dalam organisasi keselamatan elit memberikan perlindungan untuk lelaki berkuasa dan pemimpin jenayah terancang diuji apabila pengkhianatan bersembunyi dalam persaudaraan.
+            </p>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h4>Tarikh Tayangan</h4>
+                    <p>10 Mac 2025</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Pengarah</h4>
+                    <p>Michael Bay</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cast Section -->
+        <section id="cast" class="mb-5">
+            <h2 class="section-title text-danger">Pelakon</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 cast-member">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200&q=80" alt="Tom Hardy" class="img-fluid rounded-circle mb-2">
+                    <h5>Tom Hardy</h5>
+                    <p>Sebagai John "Reaper" Smith</p>
+                </div>
+                <div class="col-md-3 col-sm-6 cast-member">
+                    <img src="https://images.unsplash.com/photo-1508341591423-4347099e1f19?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200&q=80" alt="Idris Elba" class="img-fluid rounded-circle mb-2">
+                    <h5>Idris Elba</h5>
+                    <p>Sebagai Marcus "Shadow" Johnson</p>
+                </div>
+                <div class="col-md-3 col-sm-6 cast-member">
+                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200&q=80" alt="Charlize Theron" class="img-fluid rounded-circle mb-2">
+                    <h5>Charlize Theron</h5>
+                    <p>Sebagai Agent Sarah Miller</p>
+                </div>
+                <div class="col-md-3 col-sm-6 cast-member">
+                    <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=200&q=80" alt="Keanu Reeves" class="img-fluid rounded-circle mb-2">
+                    <h5>Keanu Reeves</h5>
+                    <p>Sebagai Victor "Ghost" Chen</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Showtimes Section -->
+        <section id="showtimes" class="mb-5">
+            <h2 class="section-title text-danger">Waktu Tayangan</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="showtime-card">
+                        <h4>GSC Mid Valley</h4>
+                        <p>Hari ini: 12:30 PTG, 3:45 PTG, 7:00 MLM, 10:15 MLM</p>
+                        <a href="#" class="btn btn-sm btn-danger">Tempah Sekarang</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="showtime-card">
+                        <h4>TGV Pavilion</h4>
+                        <p>Hari ini: 1:00 PTG, 4:15 PTG, 7:30 MLM, 10:45 MLM</p>
+                        <a href="#" class="btn btn-sm btn-danger">Tempah Sekarang</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="showtime-card">
+                        <h4>MBO Cinemas</h4>
+                        <p>Hari ini: 12:00 PTG, 3:00 PTG, 6:00 MLM, 9:00 MLM</p>
+                        <a href="#" class="btn btn-sm btn-danger">Tempah Sekarang</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="showtime-card">
+                        <h4>LFS East Mall</h4>
+                        <p>Hari ini: 1:30 PTG, 4:30 PTG, 7:30 MLM, 10:30 MLM</p>
+                        <a href="#" class="btn btn-sm btn-danger">Tempah Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trailer Section -->
+        <section id="trailer" class="mb-5">
+            <h2 class="section-title text-danger">Treler Rasmi</h2>
+            <div class="trailer-container">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/QWnaYorT0Wo" 
+                            title="Treler Rasmi Blood Brothers" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            
+            <!-- Troubleshooting Section -->
+            <div class="troubleshoot-section mt-4">
+                <h4 class="text-warning">Mengalami Masalah Memuatkan Treler?</h4>
+                <p>Jika treler di atas tidak dimuatkan, ia mungkin disebabkan oleh:</p>
+                <ul>
+                    <li>Extension penyekat iklan dalam browser anda</li>
+                    <li>Settings keselamatan network</li>
+                    <li>Isu dengan YouTube sementara</li>
+                </ul>
+                <p>Anda juga boleh <a href="https://youtu.be/QWnaYorT0Wo" target="_blank" class="text-warning">tonton treler terus di YouTube</a>.</p>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="mb-5">
+            <h2 class="section-title text-danger">Galeri</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <img src="https://images.unsplash.com/photo-1489599102910-59206b8ca314?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80" alt="Adegan filem 1" class="img-fluid rounded">
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80" alt="Adegan filem 2" class="img-fluid rounded">
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <img src="https://images.unsplash.com/photo-1478720568477-b2700bcc5b3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80" alt="Adegan filem 3" class="img-fluid rounded">
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=300&q=80" alt="Adegan filem 4" class="img-fluid rounded">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>BLOOD BROTHERS</h5>
+                    <p>Kini ditayangkan di pawagam seluruh negara</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>Ikuti kami di:
+                        <a href="#" class="text-danger mx-2">Facebook</a>
+                        <a href="#" class="text-danger mx-2">Twitter</a>
+                        <a href="#" class="text-danger mx-2">Instagram</a>
+                    </p>
+                    <p>&copy; 2025 Primeworks Studios. Hak cipta terpelihara.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
